@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Allow directories to be tracked
+!*/
+
+# Allow .c and .cpp files
+!*.c
+!*.cpp
+!0-*
+!.gitignore
+
+# Optionally ignore other common files
+# .DS_Store
+# *.log
+# *.tmp
