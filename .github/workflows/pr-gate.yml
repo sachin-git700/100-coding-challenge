@@ -1,0 +1,9 @@
+name: PR Gate
+on: pull_request
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    permissions: { contents: read }
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo gate ok
